@@ -11,3 +11,9 @@
 * docker build Constroi uma imagem baseado no arquivo docker
 
 * docker run -p 3000:80 d3510170aed8: Mapeia a porta 3000 da máquina, que roda o container, para a porta 80 do computador. Dessaforma é possível acessar a aplicação na porta 3000.
+
+* docker start container_name : inicia um container sem o recriar.
+
+* docker run -it container_name : incia o container de modo interativo
+
+* docker start -ai container_name : inicia o container de modo interativo
