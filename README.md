@@ -14,6 +14,14 @@
 
 * docker start container_name : inicia um container sem o recriar.
 
-* docker run -it container_name : incia o container de modo interativo
+* docker run -it container_name : incia o container apartir da imagem de modo interativo
 
 * docker start -ai container_name : inicia o container de modo interativo
+
+* docker images: lista todas as imagens
+
+* docker rmi sha_image: remove uma imagem
+
+* docker image prune: remove todas as imagens
+
+* docker image inspect image_id: permite verificar alguns detalhes da imagem

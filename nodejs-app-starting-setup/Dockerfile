@@ -1,4 +1,4 @@
-FROM node
+FROM node:14
 
 # Todos os comandos serão executados dentro desse diretório
 WORKDIR /app
