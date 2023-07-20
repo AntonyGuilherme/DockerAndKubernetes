@@ -25,3 +25,7 @@
 * docker image prune: remove todas as imagens
 
 * docker image inspect image_id: permite verificar alguns detalhes da imagem
+
+* docker run -p 3000:80 -d -v feedback:/app/feedback --name feedback-container-volume --rm feedback-volume : cria um container com mapeamento da porta 80 para a 3000 com um named volume que manterá os arquivos salvos mesmo quando o container for removido. Além disso, esse container também será removido assim que for parado
+
+* docker run -p 3000:80 -d -v feedback:/app/feedback -v "C:\Users\word2\Documents\Docker\data-volumes-01-starting-setup:/app" -v /app/node_modules --name feedback-container-volume --rm feedback-volume
